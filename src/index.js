@@ -4,8 +4,8 @@ function euqlid(a, b) {
   if (
     a <= 0 ||
     b <= 0 ||
-    typeof a != 'number' ||
-    typeof b != 'number' ||
+    typeof a !== 'number' ||
+    typeof b !== 'number' ||
     !Number.isInteger(a) ||
     !Number.isInteger(b)
   )
